@@ -9,6 +9,19 @@
       padding-top: 5rem;
     }
   }
+
+  #about-a {
+    .about-info {
+      .bio {
+        h4 {
+          padding: 1rem 0 0;
+        }
+        p {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
 }
 
 // Smartphones
@@ -74,11 +87,10 @@
       .about-info {
         grid-template-areas: 'bioimage' 'bio' 'bio' 'aw1' 'aw2' 'aw3';
 
+       .bio p {
+          padding-bottom: 1rem;
+        }
       }
-    }
-
-    &-b {
-
     }
 
     &-c {

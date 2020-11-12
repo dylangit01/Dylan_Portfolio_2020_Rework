@@ -626,7 +626,11 @@ img {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  #about-a .about-info .bio h4 {
+    padding: 1rem 0 0; }
+  #about-a .about-info .bio p {
+    padding-bottom: 1rem; } }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -658,6 +662,8 @@ img {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
     grid-template-areas: 'bioimage' 'bio' 'bio' 'aw1' 'aw2' 'aw3'; }
+    #about-a .about-info .bio p {
+      padding-bottom: 1rem; }
   #about-c {
     padding: 1rem 0; }
     #about-c .about-logos {
