@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <title>Contact Me | Web-developer & Creator</title>
+</head>
+<body>
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <img src="img/logo-dd.png" alt="My Portfolio" id="logo">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" >About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Section A: Contact Form-->
+  <section id="contact-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Here is how you can reach me</p>
+      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" class="text-input name-input" name="name"
+                 placeholder="Name">
+          <input type="text" class="text-input subject-input" name="subject"
+                 placeholder="Subject">
+          <input type="email" class="text-input email-input" name="email"
+                 placeholder="Email Address">
+          <input type="number" class="text-input phone-input" name="phone"
+                 placeholder="Phone Number">
+          <textarea class="text-input message-input" rows="5" name="message"
+                    placeholder="Enter Message"></textarea>
+          
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          
+        </div>
+        <button class="btn-dark" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+  <!--  Section B: Contact Info-->
+  <section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+      <div class="contact-info">
+        
+        <div>
+          <i class="fas fa-envelope fa-2x"></i>
+          <h3>Email</h3>
+          <p>Dylandu2@gmail.com</p>
+        </div>
+        
+        <div>
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Phone</h3>
+          <p>1-(647) 526-5011</p>
+        </div>
+        <div>
+          <i class="fas fa-address-card fa-2x"></i>
+          <h3>Address</h3>
+          <p>Toronto, ON, CA</p>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  
+  <!--  Section C: Tagline-->
+  <section id="contact-c" class="bg-main py-3">
+    <div class="container">
+      <h1>Let's Start Your Next Project</h1>
+    </div>
+  </section>
+  
+  <!--  Footer-->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <P>Copyright &copy; 2020. All Rights Reserved</P>
+      <div class="social">
+        <a href="https://github.com/dylangit01" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/dylan-du/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://kit.fontawesome.com/9b4e69244d.js"
+          crossorigin="anonymous"></script>
+</body>
+</html>
+
+
