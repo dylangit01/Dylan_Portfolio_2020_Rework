@@ -364,13 +364,197 @@ img {
   overflow: hidden;
   height: 20px;
   background: #ccc;
-  border-radius: 5px;
-  margin-bottom: .3rem; }
-  #about-b .progress div {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  margin-bottom: .3rem;
+  position: relative; }
+  #about-b .progress .js {
+    position: absolute;
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #ffbc00;
+    animation: jsmove 3s linear forwards; }
+
+@keyframes jsmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 90%; } }
+    #about-b .progress .js::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+  #about-b .progress .hs {
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+    animation: hsmove 3s linear forwards; }
+
+@keyframes hsmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 90%; } }
+    #about-b .progress .hs::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+  #about-b .progress .nd {
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+    animation: ndmove 3s linear forwards; }
+
+@keyframes ndmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+    #about-b .progress .nd::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+  #about-b .progress .ng {
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+    animation: ngmove 3s linear forwards; }
+
+@keyframes ngmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 80%; } }
+    #about-b .progress .ng::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+  #about-b .progress .rt {
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+    animation: rtmove 3s linear forwards; }
+
+@keyframes rtmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+    #about-b .progress .rt::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+  #about-b .progress .ex {
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+    animation: exmove 3s linear forwards; }
+
+@keyframes exmove {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+    #about-b .progress .ex::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+      z-index: 1;
+      background-size: 50px 50px;
+      animation: moveCandystripes 300ms linear forwards;
+      overflow: hidden; }
+
+@keyframes moveCandystripes {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
 
 #about-c .about-logos {
   display: grid;
