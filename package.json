@@ -1,0 +1,14 @@
+{
+  "name": "dylandu_portfolio",
+  "version": "1.0.0",
+  "description": "portfolio rework",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Dylan Du",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
