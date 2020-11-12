@@ -443,7 +443,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 70%; } }
+    width: 75%; } }
     #about-b .progress .nd::after {
       content: '';
       position: absolute;
@@ -474,7 +474,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 80%; } }
+    width: 75%; } }
     #about-b .progress .ng::after {
       content: '';
       position: absolute;
@@ -505,7 +505,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 70%; } }
+    width: 75%; } }
     #about-b .progress .rt::after {
       content: '';
       position: absolute;
@@ -536,7 +536,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 70%; } }
+    width: 75%; } }
     #about-b .progress .ex::after {
       content: '';
       position: absolute;
@@ -563,7 +563,7 @@ img {
   align-items: center; }
   #about-c .about-logos img {
     margin: 0 auto;
-    width: 70%; }
+    width: 75%; }
 
 #contact-a .text-fields {
   display: grid;
