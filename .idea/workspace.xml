@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776b185e-fb1a-4e86-8ca7-180fe99ae25e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <workItem from="1604699999582" duration="27193000" />
       <workItem from="1605024348206" duration="15000" />
       <workItem from="1605042939040" duration="10196000" />
-      <workItem from="1605075842851" duration="30270000" />
+      <workItem from="1605075842851" duration="30543000" />
     </task>
     <servers />
   </component>
@@ -160,10 +158,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.23.1920.1057/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605020427948" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1605194110788">
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1605205053554">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1080/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605194110788" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1080/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1605205053554" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/-1920.23.1920.1057/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1605064966734" />
   </component>
 </project>
