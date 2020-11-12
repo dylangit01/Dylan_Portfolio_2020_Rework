@@ -239,6 +239,8 @@ img {
       grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
       grid-gap: 1.2rem;
 
+
+
       // Grid Area
       .bio-image {
         grid-area: bioimage;
@@ -247,7 +249,16 @@ img {
       .bio {
         grid-area: bio;
         border-left: 3px solid $main-color;
-        padding: .8rem;
+        padding: 0 .8rem;
+        text-align: left;
+
+        h4 {
+          text-align: center;
+          padding: 1.5rem;
+        }
+        p {
+          padding: 0 1rem;
+        }
       }
 
       .award-1 {
@@ -262,7 +273,7 @@ img {
         grid-area: aw3;
       }
 
-      .fas {
+      .fas, .fab {
         color: $main-color;
         margin: 1rem;
       }

@@ -343,14 +343,20 @@ img {
   #about-a .about-info .bio {
     grid-area: bio;
     border-left: 3px solid #ffbc00;
-    padding: .8rem; }
+    padding: 0 .8rem;
+    text-align: left; }
+    #about-a .about-info .bio h4 {
+      text-align: center;
+      padding: 1.5rem; }
+    #about-a .about-info .bio p {
+      padding: 0 1rem; }
   #about-a .about-info .award-1 {
     grid-area: aw1; }
   #about-a .about-info .award-2 {
     grid-area: aw2; }
   #about-a .about-info .award-3 {
     grid-area: aw3; }
-  #about-a .about-info .fas {
+  #about-a .about-info .fas, #about-a .about-info .fab {
     color: #ffbc00;
     margin: 1rem; }
 
