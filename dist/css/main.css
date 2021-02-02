@@ -536,7 +536,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 70%; } }
+    width: 60%; } }
     #about-b .progress .ex::after {
       content: '';
       position: absolute;

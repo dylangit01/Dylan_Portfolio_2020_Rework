@@ -534,7 +534,7 @@ img {
             width: 0;
           }
           100% {
-            width: 70%;
+            width: 60%;
           }
         }
 
@@ -676,6 +676,5 @@ img {
   }
 }
 
-// Cannot put in the front as will be overwritten
 @import "media";
 
