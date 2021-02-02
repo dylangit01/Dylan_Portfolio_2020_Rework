@@ -248,7 +248,7 @@ img {
       .bio {
         grid-area: bio;
         border-left: 3px solid $main-color;
-        padding: 0 .8rem;
+        padding: 0.8rem;
         text-align: left;
 
         h4 {
@@ -534,7 +534,7 @@ img {
             width: 0;
           }
           100% {
-            width: 75%;
+            width: 70%;
           }
         }
 
@@ -670,6 +670,7 @@ img {
 
       &:hover {
         background: $main-color;
+        transition: all .5s;
       }
     }
   }

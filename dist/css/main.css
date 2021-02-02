@@ -343,7 +343,7 @@ img {
   #about-a .about-info .bio {
     grid-area: bio;
     border-left: 3px solid #ffbc00;
-    padding: 0 .8rem;
+    padding: 0.8rem;
     text-align: left; }
     #about-a .about-info .bio h4 {
       text-align: center;
@@ -536,7 +536,7 @@ img {
   0% {
     width: 0; }
   100% {
-    width: 75%; } }
+    width: 70%; } }
     #about-b .progress .ex::after {
       content: '';
       position: absolute;
@@ -617,7 +617,8 @@ img {
       text-align: center;
       padding: .5rem; }
       #main-footer .footer-content .fab:hover {
-        background: #ffbc00; }
+        background: #ffbc00;
+        transition: all .5s; }
 
 .txt-type > .txt {
   border-right: .2rem solid #f4f4f4; }
