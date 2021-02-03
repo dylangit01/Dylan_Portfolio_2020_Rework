@@ -618,6 +618,11 @@ img {
       .text-input {
         padding: .5rem 1rem;
       }
+
+      .notRobot {
+        display: flex;
+        justify-content: flex-start;
+      }
     }
 
     button[type='submit'] {
