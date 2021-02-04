@@ -582,12 +582,12 @@ img {
     grid-area: message; }
   #contact-a .text-fields .text-input {
     padding: .5rem 1rem; }
-  #contact-a .text-fields .notRobot {
-    display: flex;
-    justify-content: flex-start; }
 
 #contact-a button[type='submit'] {
   width: 50%; }
+
+#contact-a .notRobot {
+  display: flex; }
 
 #contact-b .contact-info {
   display: grid;

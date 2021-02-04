@@ -619,15 +619,16 @@ img {
         padding: .5rem 1rem;
       }
 
-      .notRobot {
-        display: flex;
-        justify-content: flex-start;
-      }
     }
 
     button[type='submit'] {
       width: 50%;
     }
+
+    .notRobot {
+      display: flex;
+    }
+
   }
 
   &-b {
