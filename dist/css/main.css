@@ -634,7 +634,9 @@ img {
   #about-a .about-info .bio h4 {
     padding: 1rem 0 0; }
   #about-a .about-info .bio p {
-    padding-bottom: 1rem; } }
+    padding-bottom: 1rem; }
+  .items {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 500px) {
   #main-nav {
